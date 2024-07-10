@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import * as ServiciosUsuario from "../servicios/usuarios";
+import * as ServiciosUsuario from "../servicios/valorDolar";
 
 export default {
   name: "src-componentes-usuarios",

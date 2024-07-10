@@ -2,16 +2,14 @@
 
 import { createRouter, createWebHistory } from 'vue-router';
 
-import Formulario from './componentes/Formulario.vue';
-import Usuarios  from './componentes/Usuarios.vue';
-
+import Conversor from './componentes/Conversor.vue';
+import Respuestas from './componentes/Respuestas.vue';
 
 const routes = [
-    { path: '/', redirect: '/form' },
-    { path: '/form', component: Formulario },
-    { path: '/usuarios', component: Usuarios },
-
-    { path: '/:pathmatch(.*)*', redirect: '/form' },
+    { path: '/', redirect: '/conversor' },
+    { path: '/conversor', component: Conversor },
+    { path: '/respuestas', component: Respuestas },
+    { path: '/:pathmatch(.*)*', redirect: '/conversor' },
 ]
 
 const router = createRouter({
