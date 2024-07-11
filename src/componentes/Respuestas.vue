@@ -1,21 +1,22 @@
 <template>
 
-    <section class="src-componentes-navbar">
+    <section>
+      <h1 class="h1 m-4">Respuestas</h1>
       <ul>
         <li>
-          1: 
+          <h4 class="h4">Pregunta 1: B</h4>
         </li>
         <li>
-          2: 
+          <h4 class="h4">Pregunta 2: B, D</h4>
         </li>
         <li>
-          3: 
+          <h4 class="h4">Pregunta 3: C</h4>
         </li>
         <li>
-          4: 
+          <h4 class="h4">Pregunta 4: E</h4>
         </li>
         <li>
-          5: 
+          <h4 class="h4">Pregunta 5: C</h4>
         </li>
       </ul>
     </section>
